@@ -1,0 +1,1 @@
+python pyan-master/pyan.py *.py --uses --no-defines --colored --grouped --annotated --dot >myuses.dot

@@ -1,0 +1,146 @@
+digraph G {
+    graph [rankdir=TB, clusterrank="local"];
+    subgraph cluster_G {
+
+        graph [style="filled,rounded",fillcolor="#80808018", label=""];
+        Transcript [label="Transcript", style="filled", fillcolor="#ffffffb2", fontcolor="#000000", group="0"];
+        subgraph cluster_Transcript {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="Transcript"];
+            Transcript__Main [label="Main\n(Transcript.py:532)", style="filled", fillcolor="#feccccb2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_Transcript {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="Transcript"];
+            Transcript__allCombChecks [label="allCombChecks\n(Transcript.py:212)", style="filled", fillcolor="#feccccb2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_Transcript {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="Transcript"];
+            Transcript__check_h [label="check_h\n(Transcript.py:279)", style="filled", fillcolor="#feccccb2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_Transcript {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="Transcript"];
+            Transcript__comb_checks [label="comb_checks\n(Transcript.py:149)", style="filled", fillcolor="#feccccb2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_Transcript {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="Transcript"];
+            Transcript__find_sim [label="find_sim\n(Transcript.py:452)", style="filled", fillcolor="#feccccb2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_Transcript {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="Transcript"];
+            Transcript__hamming [label="hamming\n(Transcript.py:445)", style="filled", fillcolor="#feccccb2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_Transcript {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="Transcript"];
+            Transcript__hasDigits [label="hasDigits\n(Transcript.py:78)", style="filled", fillcolor="#feccccb2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_Transcript {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="Transcript"];
+            Transcript__hasOnly [label="hasOnly\n(Transcript.py:140)", style="filled", fillcolor="#feccccb2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_Transcript {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="Transcript"];
+            Transcript__hasVHV [label="hasVHV\n(Transcript.py:264)", style="filled", fillcolor="#feccccb2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_Transcript {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="Transcript"];
+            Transcript__isEdgeLettersSame [label="isEdgeLettersSame\n(Transcript.py:171)", style="filled", fillcolor="#feccccb2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_Transcript {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="Transcript"];
+            Transcript__isNikud [label="isNikud\n(Transcript.py:270)", style="filled", fillcolor="#feccccb2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_Transcript {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="Transcript"];
+            Transcript__isSamePair [label="isSamePair\n(Transcript.py:132)", style="filled", fillcolor="#feccccb2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_Transcript {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="Transcript"];
+            Transcript__loop_freq [label="loop_freq\n(Transcript.py:84)", style="filled", fillcolor="#feccccb2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_Transcript {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="Transcript"];
+            Transcript__removeSharedLetters [label="removeSharedLetters\n(Transcript.py:158)", style="filled", fillcolor="#feccccb2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_Transcript {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="Transcript"];
+            Transcript__repl_symbols [label="repl_symbols\n(Transcript.py:63)", style="filled", fillcolor="#feccccb2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_Transcript {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="Transcript"];
+            Transcript__replaceInDataFrame [label="replaceInDataFrame\n(Transcript.py:496)", style="filled", fillcolor="#feccccb2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_Transcript {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="Transcript"];
+            Transcript__shouldMerge [label="shouldMerge\n(Transcript.py:384)", style="filled", fillcolor="#feccccb2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_Transcript {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="Transcript"];
+            Transcript__shouldMerge_heb [label="shouldMerge_heb\n(Transcript.py:298)", style="filled", fillcolor="#feccccb2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_Transcript {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="Transcript"];
+            Transcript__shouldMerge_rus [label="shouldMerge_rus\n(Transcript.py:332)", style="filled", fillcolor="#feccccb2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_Transcript {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="Transcript"];
+            Transcript__similar [label="similar\n(Transcript.py:431)", style="filled", fillcolor="#feccccb2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_Transcript {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="Transcript"];
+            Transcript__testing [label="testing\n(Transcript.py:573)", style="filled", fillcolor="#feccccb2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_Transcript {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="Transcript"];
+            Transcript__typosStats [label="typosStats\n(Transcript.py:410)", style="filled", fillcolor="#feccccb2", fontcolor="#000000", group="0"];
+        }
+        subgraph cluster_Transcript {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="Transcript"];
+            Transcript__xlsColIndex [label="xlsColIndex\n(Transcript.py:486)", style="filled", fillcolor="#feccccb2", fontcolor="#000000", group="0"];
+        }
+    }
+        Transcript -> Transcript__testing [style="solid", color="#000000"];
+        Transcript__loop_freq -> Transcript__hasDigits [style="solid", color="#000000"];
+        Transcript__allCombChecks -> Transcript__comb_checks [style="solid", color="#000000"];
+        Transcript__allCombChecks -> Transcript__hasVHV [style="solid", color="#000000"];
+        Transcript__allCombChecks -> Transcript__check_h [style="solid", color="#000000"];
+        Transcript__check_h -> Transcript__isNikud [style="solid", color="#000000"];
+        Transcript__shouldMerge_heb -> Transcript__hasOnly [style="solid", color="#000000"];
+        Transcript__shouldMerge_heb -> Transcript__removeSharedLetters [style="solid", color="#000000"];
+        Transcript__shouldMerge_heb -> Transcript__allCombChecks [style="solid", color="#000000"];
+        Transcript__shouldMerge_heb -> Transcript__isEdgeLettersSame [style="solid", color="#000000"];
+        Transcript__shouldMerge_heb -> Transcript__check_h [style="solid", color="#000000"];
+        Transcript__shouldMerge_rus -> Transcript__comb_checks [style="solid", color="#000000"];
+        Transcript__shouldMerge_rus -> Transcript__removeSharedLetters [style="solid", color="#000000"];
+        Transcript__shouldMerge_rus -> Transcript__isEdgeLettersSame [style="solid", color="#000000"];
+        Transcript__shouldMerge -> Transcript__shouldMerge_rus [style="solid", color="#000000"];
+        Transcript__shouldMerge -> Transcript__shouldMerge_heb [style="solid", color="#000000"];
+        Transcript__find_sim -> Transcript__similar [style="solid", color="#000000"];
+        Transcript__find_sim -> Transcript__isSamePair [style="solid", color="#000000"];
+        Transcript__find_sim -> Transcript__shouldMerge [style="solid", color="#000000"];
+        Transcript__Main -> Transcript__loop_freq [style="solid", color="#000000"];
+        Transcript__Main -> Transcript__xlsColIndex [style="solid", color="#000000"];
+        Transcript__Main -> Transcript__find_sim [style="solid", color="#000000"];
+        Transcript__Main -> Transcript__replaceInDataFrame [style="solid", color="#000000"];
+    }
